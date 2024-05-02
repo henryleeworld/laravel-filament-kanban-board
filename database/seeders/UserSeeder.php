@@ -9,12 +9,12 @@ use Illuminate\Database\Seeder;
 class UserSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      */
     public function run(): void
     {
          User::factory()->create([
-             'name' => '管理者',
+             'name' => __('Administrator'),
              'email' => 'admin@admin.com',
          ]);
     }

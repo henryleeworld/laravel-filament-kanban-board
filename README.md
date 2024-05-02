@@ -1,9 +1,9 @@
-# Laravel 10 Filament 工作流程看板面板
+# Laravel 11 Filament 工作流程看板面板
 
 Filament 工作流程看板面板採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，工作流程看板是一種能夠隨階段推進將工作內容可視化的方式，工作完成後，其中內容會向其他階段推進，直到到達最後一欄。
 
 ## 使用方式
-- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl，並重啟服務器。
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl 和 zip，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/IYtvZUD.png)
+![](https://i.imgur.com/IysTyXp.png)
 > 匯集所有任務是關鍵的第一步，因為如果可以在專案或季度開端組織好自己，便更容易在接下來更長的時間內保持井井有條
 
-![](https://i.imgur.com/oGo7dX1.gif)
+![](https://i.imgur.com/FfeX0lc.gif)
 > 重要任務可能不需要立即關注，但這些任務有助您達成長期目標

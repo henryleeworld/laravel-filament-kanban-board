@@ -56,6 +56,7 @@ class TasksKanbanBoard extends KanbanBoard
         return [
             CreateAction::make()
                 ->label(fn (): string => __('filament-actions::create.single.label', ['label' => __('task')]))
+                ->modalHeading(fn (): string => __('filament-actions::create.single.modal.heading', ['label' => __('task')]))
                 ->model(Task::class)
                 ->form([
                     TextInput::make('title')
