@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.2",
         "filament/filament": "^3.2",
-        "laravel/framework": "^11.17",
+        "laravel/framework": "^11.18",
         "laravel/tinker": "^2.10",
         "mokhosh/filament-kanban": "^2.8",
         "spatie/eloquent-sortable": "^4.2"
@@ -15,10 +15,10 @@
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "laravel/pint": "^1.18",
-        "laravel/sail": "^1.33",
+        "laravel/sail": "^1.35",
         "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.3",
-        "phpunit/phpunit": "^11.3"
+        "nunomaduro/collision": "^8.5",
+        "phpunit/phpunit": "^11.4"
     },
     "autoload": {
         "psr-4": {
